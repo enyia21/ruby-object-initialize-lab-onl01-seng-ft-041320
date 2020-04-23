@@ -3,5 +3,5 @@ class Person
     @name = name
     @breed = (breed==nil ? "Mutt": breed )
   end
-    
+
 end
