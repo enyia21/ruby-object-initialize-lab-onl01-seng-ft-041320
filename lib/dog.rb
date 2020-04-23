@@ -1,6 +1,7 @@
 require 'pry'
 class Dog
-  attr_writer :breed="Mutt"
+  @breed = "Mutt"
+  
   def initialize(name, breed)
     @name = name
     binding.pry
@@ -8,7 +9,7 @@ class Dog
   end
 
   def breed
-
+    
   end
 end
 
