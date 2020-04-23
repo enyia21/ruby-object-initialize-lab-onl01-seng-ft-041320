@@ -1,9 +1,9 @@
-# require 'pry'
+require 'pry'
 class Dog
-  attr_writter :breed = "Mutt"
+  attr_writer :breed = "Mutt"
   def initialize(name, breed)
     @name = name
-    # binding.pry
+    binding.pry
     @breed = breed
   end
 
@@ -12,4 +12,4 @@ class Dog
   end
 end
 
-# billy = Dog.new("Johnny")
+billy = Dog.new("Johnny")
